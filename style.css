@@ -48,3 +48,44 @@ body{
 }
 
 
+/* Style Players */
+.players-sec{
+    background-color: gray;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 33px;
+    grid-row-gap: 27px;
+    padding: 70px 210px 165px 180px;
+    /* padding-top: 70px;
+    padding-left: 180px;
+    padding-right: 210px;
+    padding-bottom: 165px; */
+}
+
+.players{
+    width: 330px;
+    height: 474px;
+    background-color:  #FFFFFF;
+    border: 1px solid red;
+    
+}
+.player{
+    Width : 300px;
+    height: 396px;
+    padding:15px;
+    
+}
+.player-details{
+    color: #6C6C6C;
+}
+
+.player-photo img{
+    Width : 300px;
+    Height : 256px;
+}
+
+.player-info{
+    Width : 300px;
+    height: 124px;
+    margin-bottom: 63px;
+}
