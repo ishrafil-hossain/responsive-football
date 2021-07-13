@@ -6,6 +6,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    /* background-color: gray; */
    
 }
 
@@ -50,7 +51,6 @@ body{
 
 /* Style Players */
 .players-sec{
-    background-color: gray;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 33px;
@@ -66,7 +66,7 @@ body{
     width: 330px;
     height: 474px;
     background-color:  #FFFFFF;
-    border: 1px solid red;
+    box-shadow: 0 4px 8px 0 ;
     
 }
 .player{
@@ -88,4 +88,26 @@ body{
     Width : 300px;
     height: 124px;
     margin-bottom: 63px;
+}
+
+/* footer style */
+.footer-logo{
+    /* width: 483px;
+    height: 213px; */
+    text-align: center;
+    padding-bottom: 59px;
+}
+.logo img{
+    width: 483px;
+    height: 110px;
+}
+.fab{
+    color: cadetblue;
+    font-size: 37px;
+    padding: 20px 14px 51px 14px;
+}
+.copy-right{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    padding-bottom: 59px;
 }
