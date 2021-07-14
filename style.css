@@ -3,10 +3,6 @@
 --------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
-/* for desktop */
-@media only screen and (min-width:992px) {
-
-
 /* -----------------
 common styles 
 -------------------*/
@@ -184,7 +180,6 @@ HighLights style
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
     padding-bottom: 59px;
-}
 }
 
 
