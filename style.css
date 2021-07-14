@@ -29,7 +29,7 @@ banner section style
     color: white;
     height: 230px;
     width: 485;
-    /* margin-top: 207px; */
+    margin-top: 207px;
     margin-left: 156px;
     margin-bottom: 100px;
 }
@@ -43,11 +43,10 @@ banner section style
     margin-top: 153px;
     margin-right: 140px;
     margin-left: 102px;
-    transition: width 5s,height 5s, transform 5s;
+    transition: width 5s, transform 5s;
 }
 .banner-section img:hover{
     Width :600px;
-    height: 550px;
     transform: rotate(360deg);
 }
 
