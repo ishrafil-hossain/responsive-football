@@ -188,7 +188,7 @@ Media query
     .banner-section{
         height: 1000px;
         display: block;
-        width: 688px;
+        width: 570px;
     }
     .banner-title{
         margin-top: 0;
@@ -197,19 +197,15 @@ Media query
         margin-right:0px;
         margin-left:15px;
     }
+
     .players-sec, .high-lights,   .match-div, .upcoming-date, .footer-logo{
         grid-template-columns: repeat(1, 1fr);
     }
-    /* .high-light-match h1{
-        text-align: center;
-    } */
-    iframe, .match-div, .high-light-match h1{
-        margin-left: 150px;
+     .match-div, iframe,.high-light-match h1{
+        margin-left: 70px;
     }
-
-    
     .footer-logo{
-      margin-left: 80px;
+      margin-left: 50px;
     }
   
 }
