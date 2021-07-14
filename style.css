@@ -21,6 +21,7 @@ banner section style
     height:677px;
     display: flex;
     justify-content: center;
+    
 
 }
 
@@ -202,7 +203,7 @@ Media query
         margin-left:15px;
     }
 
-    .players-sec, .high-lights,   .match-div, .upcoming-date, .footer-logo{
+    .players-sec, .high-lights, .match-div, .upcoming-date, .footer-logo{
         grid-template-columns: repeat(1, 1fr);
     }
      .match-div, iframe,.high-light-match h1{
@@ -212,4 +213,23 @@ Media query
       margin-left: 50px;
     }
   
+}
+
+/* tablet devices */
+@media only screen and (min-width:688px) and (max-width:992px){
+    .banner-section{
+        height: 1000px;
+        display: block;
+        width: 860px;
+   }
+   .banner-title{
+    margin-top: 0;
+}
+   .players-sec,.high-lights, .match-div{
+    grid-template-columns: repeat(2, 1fr);
+   }
+   .upcoming-date h3{
+    width: 122px;
+    height: 40px;
+}
 }
