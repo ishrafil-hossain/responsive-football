@@ -190,6 +190,7 @@ Media query
     .banner-section{
         height: 1000px;
         display: block;
+        width: 688px;
     }
     .banner-section img{
         margin-right:0px;
@@ -197,7 +198,9 @@ Media query
     }
     .players-sec, .high-lights,   .match-div, .upcoming-date, .footer-logo{
         grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
     }
+
     .upcoming-date h3{
         margin-left: 86px;
     }
