@@ -23,14 +23,12 @@ banner section style
     justify-content: center;
 
 }
-.banner-div{
-    
-}
+
 .banner-title{
     color: white;
     height: 230px;
     width: 485;
-    /* margin-top: 207px; */
+    margin-top: 207px;
     margin-left: 156px;
     margin-bottom: 100px;
 }
@@ -41,8 +39,8 @@ banner section style
 .banner-section img{
     Width :556.01px;
     height: 438px;
-     margin-top: 153px;
-     margin-right: 140px;
+    margin-top: 153px;
+    margin-right: 140px;
     margin-left: 102px;
 }
 .banner-section:hover img{
@@ -192,16 +190,26 @@ Media query
         display: block;
         width: 688px;
     }
+    .banner-title{
+        margin-top: 0;
+    }
     .banner-section img{
         margin-right:0px;
         margin-left:15px;
     }
     .players-sec, .high-lights,   .match-div, .upcoming-date, .footer-logo{
         grid-template-columns: repeat(1, 1fr);
-        flex-direction: column;
+    }
+    /* .high-light-match h1{
+        text-align: center;
+    } */
+    iframe, .match-div, .high-light-match h1{
+        margin-left: 150px;
     }
 
-    .upcoming-date h3{
-        margin-left: 86px;
+    
+    .footer-logo{
+      margin-left: 80px;
     }
+  
 }
