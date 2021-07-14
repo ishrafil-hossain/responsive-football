@@ -1,16 +1,21 @@
-/* fonts */
+/* -----------------
+        fonts 
+--------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
-/* common styles */
+/* -----------------
+common styles 
+-------------------*/
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    /* background-color: gray; */
    
 }
 
-/* banner section style */
+/* --------------------
+banner section style
+----------------------- */
 .banner-section{
     background-color: #2D25A0;
     height:677px;
@@ -49,17 +54,15 @@ body{
 }
 
 
-/* Style Players */
+/*--------------------- 
+Style Players 
+-----------------------*/
 .players-sec{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 33px;
     grid-row-gap: 27px;
     padding: 70px 210px 165px 180px;
-    /* padding-top: 70px;
-    padding-left: 180px;
-    padding-right: 210px;
-    padding-bottom: 165px; */
 }
 
 .players{
@@ -90,10 +93,36 @@ body{
     margin-bottom: 63px;
 }
 
-/* footer style */
+/* ------------------------
+HighLights style 
+---------------------------*/
+.high-light-match{
+    padding-left: 30px;
+    text-align: center;
+    
+}
+.high-lights{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+.high-light iframe{
+    Width : 400px;
+    Height : 200px;
+
+}
+
+
+
+
+
+
+
+/*------------------------
+ footer style 
+ ------------------------*/
 .footer-logo{
-    /* width: 483px;
-    height: 213px; */
     text-align: center;
     padding-bottom: 59px;
 }
